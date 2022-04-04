@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char strExp[]="3+4";
+int left=strExp[0]-'0';
+int right=strExp[2]-'0';
+int res=left+right;
+printf("res=%d\n",res);
+return 0;
+}
